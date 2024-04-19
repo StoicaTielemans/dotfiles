@@ -29,4 +29,7 @@ return {
     vim.keymap.set('n', '<leader>ga', ':Git add .<CR>', { desc = '[G]it add' }),
     vim.keymap.set('n', '<leader>gp', ':Git push<CR>', { desc = '[G]it push' }),
   },
+  { 'kdheepak/lazygit.nvim', 
+vim.keymap.set('n', '<leader>gl', ':LazyGit<CR>', { desc = 'Lazy[G]it' })
+ },
 }
